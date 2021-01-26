@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!--EditText for taking input room name user-->
+
+    <EditText
+        android:id="@+id/conferenceName"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_margin="12dp"
+        android:hint="Enter room name" />
+    <!--Button for creating a room for video calling by it's clicking event-->
+    <!--When clicking event occur on button then onButtonClick method will call -->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_margin="12dp"
+        android:background="#0F9D58"
+        android:onClick="onButtonClick"
+        android:text="Join"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
